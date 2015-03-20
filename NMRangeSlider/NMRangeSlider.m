@@ -177,15 +177,15 @@ NSUInteger DeviceSystemMajorVersion() {
     
     __block void (^setValuesBlock)(void) = ^ {
         
-        if(!isnan(lowerValue))
-        {
-            [self setLowerValue:lowerValue];
-        }
         if(!isnan(upperValue))
         {
             [self setUpperValue:upperValue];
         }
-        
+        if(!isnan(lowerValue))
+        {
+          [self setLowerValue:lowerValue];
+        }
+
     };
     
     if(animated)
