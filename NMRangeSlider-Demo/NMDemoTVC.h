@@ -10,6 +10,7 @@
 
 #import "NMRangeSlider.h"
 #import "NMVerticalRangeSlider.h"
+#import "MMColorForTrack.h"
 
 @interface NMDemoTVC : UITableViewController <NMRangeSliderDelegate>
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		96D4FD951C0DBEFD00F29BB1 /* NMVerticalRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D4FD941C0DBEFD00F29BB1 /* NMVerticalRangeSlider.m */; };
 		96D4FD971C0DC23D00F29BB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D4FD961C0DC23D00F29BB1 /* QuartzCore.framework */; };
+		27D839751AC33B1600B6B6DB /* MMColorForTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D839741AC33B1600B6B6DB /* MMColorForTrack.m */; };
 		EC36F93715CD0B96009A1A04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93615CD0B96009A1A04 /* UIKit.framework */; };
 		EC36F93915CD0B96009A1A04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93815CD0B96009A1A04 /* Foundation.framework */; };
 		EC36F93B15CD0B96009A1A04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93A15CD0B96009A1A04 /* CoreGraphics.framework */; };
@@ -63,6 +64,8 @@
 		96D4FD931C0DBEFD00F29BB1 /* NMVerticalRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMVerticalRangeSlider.h; sourceTree = "<group>"; };
 		96D4FD941C0DBEFD00F29BB1 /* NMVerticalRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMVerticalRangeSlider.m; sourceTree = "<group>"; };
 		96D4FD961C0DC23D00F29BB1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		27D839731AC33B1500B6B6DB /* MMColorForTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMColorForTrack.h; sourceTree = "<group>"; };
+		27D839741AC33B1600B6B6DB /* MMColorForTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMColorForTrack.m; sourceTree = "<group>"; };
 		EC36F93215CD0B96009A1A04 /* NMRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC36F93615CD0B96009A1A04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC36F93815CD0B96009A1A04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,6 +142,8 @@
 		EC36F92715CD0B96009A1A04 = {
 			isa = PBXGroup;
 			children = (
+				27D839731AC33B1500B6B6DB /* MMColorForTrack.h */,
+				27D839741AC33B1600B6B6DB /* MMColorForTrack.m */,
 				EC53B5F61993875B00C81C7E /* NMRangeSlider.podspec */,
 				EC4B675B17F8F1470054842C /* Default-568h@2x.png */,
 				EC36F93C15CD0B96009A1A04 /* NMRangeSlider-Demo */,
@@ -380,6 +385,7 @@
 				EC36F94315CD0B96009A1A04 /* main.m in Sources */,
 				96D4FD951C0DBEFD00F29BB1 /* NMVerticalRangeSlider.m in Sources */,
 				EC36F94715CD0B96009A1A04 /* NMAppDelegate.m in Sources */,
+				27D839751AC33B1600B6B6DB /* MMColorForTrack.m in Sources */,
 				EC36F96815CD0D4A009A1A04 /* NMRangeSlider.m in Sources */,
 				EC36F97B15CD0F30009A1A04 /* NMDemoTVC.m in Sources */,
 			);
